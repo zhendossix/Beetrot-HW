@@ -1,0 +1,91 @@
+p, a, h1, h3, h4 {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+ul {
+    margin: 0;
+    padding-left: 24px;
+    padding-top: 16px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.list-title {
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.list-option {
+    padding-bottom: 8px;
+}
+
+main {
+    background-color: #E8E8E8;
+}
+.contact-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px;
+}
+
+
+.candidate-role, .education, .languages {
+    background-color: #DADADA;
+    margin-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.work-exp, .skills {
+    margin-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.contact-section {
+    display: flex;
+    margin-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.contact-options {
+    align-content: center;
+    padding-left: 16px;
+}
+
+.name {
+    font-weight: 600;
+    color: #0C0C0C;
+    padding-bottom: 4px;
+}
+
+.role {
+    font-weight: 100;
+    color: #868686;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.photo {
+    border-radius: 100px;
+    padding-bottom: 4px;
+}
