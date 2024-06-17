@@ -1,0 +1,260 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-right: 32px;
+    vertical-align: middle;
+    max-width: 1400px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    color: #2F281E;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2F281E;
+    line-height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+h3 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #2F281E;
+    line-height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-weight: 700;
+    color: #2F281E;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    font-weight: 400;
+    color: #544837;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 27px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    margin-bottom: 30px;
+}
+
+.nav-links-buttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 53px;
+    align-items: baseline;
+}
+
+button {
+    font-family: inherit;
+    padding: 11px 22px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+button.sign-in {
+    background-color: transparent;
+    border: 1px solid #BCD0E5;
+    color: #173A56;
+}
+
+button.sign-up {
+    background-color: #FF9900;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+}
+
+button.btn-getstarted {
+    padding: 15px 41px;
+    background-color: #FF9900;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    font-weight: 700;
+    height: auto;
+    font-size: 16px;
+    max-height: 53px;
+    max-width: 175;
+    letter-spacing: 0px;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 14px;
+
+}
+
+.hero, .screen3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.hero-cta {
+    display: flex;
+    flex-direction: column;
+    /*max-width: 518px;*/
+    max-width: 45%;
+    padding-right: 32px;
+}
+
+.hero-img, .screen3-image {
+    /*max-width: 605px;*/
+    max-width: 50%;
+}
+
+.hero-cta h1 {
+    margin-bottom: 30px;
+}
+
+.hero-cta p {
+    margin-bottom: 56px;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.hero-buttons a {
+    color: #FF9900;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.video-link {
+    display: flex;
+    flex-direction: row;
+    column-gap: 9px;
+    align-items: center;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 34px;
+}
+
+.screen2 h2 {
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.benefit-card {
+    max-width: 240px;
+}
+
+.benefit-card img {
+    margin-bottom: 30px;
+}
+
+.benefit-card h3 {
+    margin-bottom: 13px;
+}
+
+.screen2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+    padding-bottom: 90px;
+    margin-bottom: 120px;
+}
+
+.benefits-button {
+    background-color: #FF9900;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    padding: 15px 32px;
+}
+
+.screen3subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.screen3-leftblock h2 {
+    margin-bottom: 22px;
+}
+
+.screen3-description {
+    color: #544837;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.screen3-option p {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: #544837;
+}
+
+.screen3-option {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px
+}
+
+.screen3-options {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+
+.screen3-leftblock {
+    max-width: 486px;
+}
