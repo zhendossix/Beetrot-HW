@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -127,7 +128,8 @@ button.btn-getstarted {
 
 }
 
-.hero, .screen3 {
+.hero,
+.screen3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -143,7 +145,8 @@ button.btn-getstarted {
     padding-right: 32px;
 }
 
-.hero-img, .screen3-image {
+.hero-img,
+.screen3-image {
     /*max-width: 605px;*/
     max-width: 50%;
 }
