@@ -1,0 +1,49 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #EA4244;
+  animation: animate__tada;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
+  animation-iteration-count: infinite;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 18px;
+}
+
+.page_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("./GettyImages 637906836.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.card {
+  max-height: 300px;
+  max-width: 600px;
+  margin: auto;
+  padding: 32px;
+  border: 5px double #12ACFF;
+  background-color: #EDF7FD;
+}
+
+.icon {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
